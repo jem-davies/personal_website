@@ -1,0 +1,50 @@
+baseURL = 'https://www.jemdavies.co.uk/'
+languageCode = 'en-us'
+title = ''
+favicon = "img/favicon.ico"
+
+[module]
+  # uncomment line below for temporary local development of module
+  # replacements = "github.com/lxndrblz/anatole -> ../../anatole"
+  [[module.imports]]
+    path = "github.com/lxndrblz/anatole"
+    disable = false
+
+[params]
+title = "Jem Davies"
+author = "Jem Davies"
+description = "Data Engineer"
+profilePicture = "images/profile.jpeg"
+contentratio = 0.9
+displayMode = "dark"
+favicon = "favicons/"
+
+[[params.socialIcons]]
+icon = "fab fa-linkedin"
+title = "Linkedin"
+url = "https://www.linkedin.com/in/jeremiah-raftery-davies/"
+
+[[params.socialIcons]]
+icon = "fas fa-envelope"
+title = "e-mail"
+url = "mailto:jeremiahrdavies@gmail.com"
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 300
+  identifier = "about"
+  url = "/about/"
