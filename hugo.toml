@@ -1,7 +1,6 @@
 baseURL = 'https://www.jemdavies.co.uk/'
 languageCode = 'en-us'
 title = ''
-favicon = "img/favicon.ico"
 
 [module]
   # uncomment line below for temporary local development of module
