@@ -13,10 +13,15 @@ title = ''
 title = "Jem Davies"
 author = "Jem Davies"
 description = "Data Engineer"
-profilePicture = "images/profile.jpeg"
+profilePicture = "profile.jpeg"
 contentratio = 0.9
 displayMode = "dark"
 favicon = "favicons/"
+
+[[params.socialIcons]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/jem-davies/"
 
 [[params.socialIcons]]
 icon = "fab fa-linkedin"
