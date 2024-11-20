@@ -19,6 +19,11 @@ displayMode = "dark"
 favicon = "favicons/"
 
 [[params.socialIcons]]
+icon = "fa-brands fa-github"
+title = "GitHub"
+url = "https://github.com/jem-davies/"
+
+[[params.socialIcons]]
 icon = "fab fa-linkedin"
 title = "Linkedin"
 url = "https://www.linkedin.com/in/jeremiah-raftery-davies/"
