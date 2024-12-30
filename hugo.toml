@@ -17,6 +17,7 @@ profilePicture = "profile.jpeg"
 contentratio = 0.9
 displayMode = "dark"
 favicon = "favicons/"
+doNotLoadAnimations = true
 
 [[params.socialIcons]]
 icon = "fa-brands fa-github"
