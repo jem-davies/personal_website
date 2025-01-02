@@ -18,6 +18,7 @@ contentratio = 0.9
 displayMode = "dark"
 favicon = "favicons/"
 doNotLoadAnimations = true
+mainSections = []
 
 [[params.socialIcons]]
 icon = "fa-brands fa-github"
@@ -37,8 +38,8 @@ url = "mailto:jeremiahrdavies@gmail.com"
 [menu]
 
   [[menu.main]]
-  name = "Home"
-  identifier = "home"
+  name = "About"
+  identifier = "About"
   weight = 100
   url = "/"
 
@@ -49,7 +50,7 @@ url = "mailto:jeremiahrdavies@gmail.com"
   url = "/post/"
 
   [[menu.main]]
-  name = "About"
+  name = "Contact"
   weight = 300
-  identifier = "about"
-  url = "/about/"
+  identifier = "contact"
+  url = "/contact/"
