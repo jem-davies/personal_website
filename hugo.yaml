@@ -1,0 +1,112 @@
+baseURL: "https://www.jemdavies.co.uk/"
+title: Jem Davies
+copyright: "© Jem Davies"
+pagination:
+  pagerSize: 5
+theme: [PaperMod]
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts", "papermod"]
+
+minify:
+  disableXML: true
+
+languages:
+  en:
+    languageName: "English"
+    weight: 1
+    taxonomies:
+      category: categories
+      tag: tags
+      series: series
+    menu:
+      main:
+        - name: Posts
+          url: posts/
+          weight: 10
+        - name: Tags
+          url: tags/
+          weight: 20
+        - name: Search
+          url: search/
+          weight: 30
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+params:
+  env: production
+  description: "Jem Davies' Tech Blog"
+  keywords: [Blog, Tech, Go, Golang, Python, Data]
+  author: Jem Davies
+
+  defaultTheme: auto
+  ShowShareButtons: true
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # images: ["/static"]
+
+  profileMode:
+    title: "Jem Davies" # optional default will be site title
+    subtitle: "This is SUBTITLE"
+    imageUrl: "profile.jpeg" # optional
+    imageTitle: "Profile" # optional
+    imageWidth: 200 # custom size
+    imageHeight: 200 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+
+  homeInfoParams:
+    Title: "Jem Davies' Tech Blog"
+    Content: >
+      👋 Welcome to demo PAGE of Hugo's theme PaperMod!
+
+      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+
+      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
+
+      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
+
+  socialIcons:
+    - name: github
+      title: Github
+      url: "https://github.com/jem-davies/"
+
+  editPost:
+    URL: "https://github.com/jem-davies/personal_website/tree/main/content"
+    Text: "Suggest Changes"
+    appendFilePath: true # to append file path to Edit link
+
+  assets:
+    disableHLJS: true
+    favicon: favicon.ico
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+services:
+  instagram:
+    disableInlineCSS: true
+  twitter:
+    disableInlineCSS: true
