@@ -1,0 +1,44 @@
+.buttons,
+.main .profile {
+    display: flex;
+    justify-content: center;
+}
+
+.main .profile {
+    align-items: center;
+    text-align: center;
+    min-height: auto;
+    padding: var(--gap) 0;
+}
+
+.profile .profile_inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.buttons {
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.button {
+    background: var(--tertiary);
+    border-radius: var(--radius);
+    margin: 8px;
+    padding: 6px;
+    transition: transform 0.1s;
+}
+
+.button-inner {
+    padding: 0 8px;
+}
+
+.button:active {
+    transform: scale(0.96);
+}
