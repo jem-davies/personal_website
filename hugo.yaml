@@ -64,30 +64,32 @@ params:
 
   profileMode:
     title: "Jem Davies" # optional default will be site title
-    subtitle: "This is SUBTITLE"
+    subtitle: "Data Engineer / OSS Engineer / DevOps\n\n... and general stuff"
     imageUrl: "profile.jpeg" # optional
     imageTitle: "Profile" # optional
-    imageWidth: 200 # custom size
-    imageHeight: 200 # custom size
-    buttons:
-      - name: Archive
-        url: "/archive"
+    imageWidth:  150 # custom size
+    imageHeight: 150 # custom size
 
   homeInfoParams:
-    Title: "Jem Davies' Tech Blog"
-    Content: >
-      👋 Welcome to demo PAGE of Hugo's theme PaperMod!
+    Title: "Tech Blog"
+    Content: |
+      Hello! Welcome to my blog! :wave: <br /><br />
 
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+      I hope to share insights from my experience about Software & Data Engineering, Open-Source
+      shenanigans, Cloud and DevOps related fun stuff! Here you should find practical nuggets of info that
+      will help you on your journey in the wonderful world of IT (does anyone still call it IT? :thinking:). 
 
-      - Feel free to show your support by giving us a star 🌟 on GitHub and sharing with your friends and social media .
-
-      - PaperMod is based on theme [Paper](https://github.com/nanxiaobei/hugo-paper/tree/4330c8b12aa48bfdecbcad6ad66145f679a430b3).
 
   socialIcons:
     - name: github
       title: Github
-      url: "https://github.com/jem-davies/"
+      url: https://github.com/jem-davies/
+    - name: linkedin
+      title: Linkedin
+      url: https://www.linkedin.com/in/jeremiah-raftery-davies/
+    - name: email
+      title: eMail
+      url: mailto:jeremiahrdavies@gmail.com
 
   editPost:
     URL: "https://github.com/jem-davies/personal_website/tree/main/content"
