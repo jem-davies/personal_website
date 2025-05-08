@@ -136,7 +136,7 @@ you should see:
 ❗  Because you are using a Docker driver on darwin, the terminal needs to be open to run it.
 ```
 
-Now we should be able to connect to the etcd on the address: `http://127.0.0.1:54516` (your port will be different, probably)
+Now we should be able to connect to etcd on the address: `http://127.0.0.1:54516` (your port will be different, probably)
 
 
 ## Running a bento stream to consume kubernetes events: 
