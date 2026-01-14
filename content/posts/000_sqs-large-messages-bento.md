@@ -10,8 +10,6 @@ ShowBreadCrumbs: false
 
 ---
 
-## Intro
-
 Standard SQS messages are limited in size to 256 KB :scream:  - but you can use the [Amazon SQS Extended Client](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/sqs-managing-large-messages.html) to send larger messages up to 2 GB. These libraries store the messages larger than 256 KB in S3 and send a reference to the stored object in the SQS queue.
 
 Amazon provides two client libraries, for [Python](https://github.com/awslabs/amazon-sqs-python-extended-client-lib/) and [Java](https://github.com/awslabs/amazon-sqs-java-extended-client-lib). There are a few unofficial ones knocking around on github: [Javascript](https://github.com/dvla/sqs-extended-client) and [Go](https://github.com/co-go/sqs-extended-client-go).

@@ -10,8 +10,6 @@ ShowBreadCrumbs: false
 
 ---
 
-## Intro
-
 A while back we had a [request for a "kubernetes events input"](https://github.com/warpstreamlabs/bento/issues/81) for the data streaming tool [Bento](https://warpstreamlabs.github.io/bento/docs/about/) - at the time an [etcd](https://etcd.io/) input connector was being worked on and because kubernetes uses etcd as the default datastore, the etcd input component should enable streaming kubernetes events. 
 
 This blog post walks through the steps to connect a [minikube](https://minikube.sigs.k8s.io/docs/) based local kubernetes cluster's etcd with Bento.
