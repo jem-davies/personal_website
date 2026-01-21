@@ -177,3 +177,7 @@ You should see events being printed to the console:
 
 So it is possible to get kubernetes events directly from etcd using Bento BUT - you see that the value is protobuf encoded and I am not sure where the schema files are to decode this. It's probably better to create some new Bento components to read from the kubernetes api anyway... 😅
 
+---
+
+Since this was written we now have a [`kubernetes_watch`](https://warpstreamlabs.github.io/bento/docs/components/inputs/kubernetes_watch) input component!
+I have also written a small [Part 2 for this post too](./003_kubernetes-events-bento.md)!
