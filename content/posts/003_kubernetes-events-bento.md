@@ -27,7 +27,7 @@ Here's a quick guide to spinning it up to serve as a 'Part 2' to [Kubernetes Eve
 minikube start
 ```
 
-`minikube start` will start a minikube cluster & update you kube config, in the default location of `~/.kube/config`.
+`minikube start` will start a minikube cluster & update your kube config, in the default location of `~/.kube/config`.
 Bento will look for the kube config in this default location - and use it to connect to the k8s API.
 
 ### Create the Bento config
